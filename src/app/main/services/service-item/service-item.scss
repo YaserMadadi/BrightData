@@ -1,0 +1,17 @@
+ul {
+  text-align: left;
+}
+
+
+
+.service-item {
+  min-height: 450px;
+}
+
+.description {
+  margin-top: 40px;
+
+  &:hover {
+    color: white;
+  }
+}
