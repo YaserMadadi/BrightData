@@ -23,7 +23,7 @@ export class App implements AfterViewInit {
   protected readonly title = signal('BrightData');
 
   ngAfterViewInit() {
-
+    // test
     import('aos').then(AOS => {
       AOS.init({
         duration: 1200, // animation duration in ms
